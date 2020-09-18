@@ -11,7 +11,7 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-const name = "Single Page Application (SPA)";
+const name = "Fragment";
 const element = <h3>Belajar {name}</h3>;
 
 ReactDOM.render(element, document.getElementById("master"));

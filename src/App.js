@@ -28,26 +28,23 @@ function NoMatch() {
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <nav>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/users">User</Link>
-            </li>
-          </nav>
-          <main>
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/users" exact component={ListView} />
-              <Route path="/user/:name" exact component={DetailView} />
-              <Route component={NoMatch} />
-            </Switch>
-          </main>
-        </div>
-      </BrowserRouter>
+      <table>
+        <tr>
+          <Column />
+        </tr>
+      </table>
+    );
+  }
+}
+
+class Column extends React.Component {
+  render() {
+    return (
+      // React fragment digunakan untuk menghindari error karena di react setiap element harus dibungkus dengan sebuah tag.
+      <React.Fragment>
+        <td>Data satu</td>
+        <td>Data berikutnya</td>
+      </React.Fragment>
     );
   }
 }
