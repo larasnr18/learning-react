@@ -11,7 +11,7 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-const name = "mengambil data dari API";
+const name = "Single Page Application (SPA)";
 const element = <h3>Belajar {name}</h3>;
 
 ReactDOM.render(element, document.getElementById("master"));
