@@ -11,8 +11,8 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-const name = "Todo List";
-const element = <h3>Belajar membuat {name}</h3>;
+const name = "mengambil data dari API";
+const element = <h3>Belajar {name}</h3>;
 
 ReactDOM.render(element, document.getElementById("master"));
 
