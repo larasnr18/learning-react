@@ -11,10 +11,10 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-const name = "Fragment";
-const element = <h3>Belajar {name}</h3>;
+// const name = "Fragment";
+// const element = <h3>Belajar {name}</h3>;
 
-ReactDOM.render(element, document.getElementById("master"));
+// ReactDOM.render(element, document.getElementById("master"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
